@@ -26,3 +26,7 @@ void PrintArray(string[] array)
         Console.Write($"{array[i]} ");
     }
 }
+
+Console.WriteLine("Массив из строк, длина которых меньше либо равна 3 символов:");
+NewArr(strArr1, strArr2);
+PrintArray(strArr2);
