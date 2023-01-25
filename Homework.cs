@@ -18,3 +18,11 @@ void NewArr(string[] strArr1, string[] strArr2)
         } 
     }
 }
+
+void PrintArray(string[] array)
+{
+    for (int i = 0; i <array.Length; i++)
+    {
+        Console.Write($"{array[i]} ");
+    }
+}
